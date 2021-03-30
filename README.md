@@ -1,8 +1,8 @@
 <!--
  * @Description: 组件说明文档
- * @Github: git@codeup.aliyun.com:5e9ad1c5e17c0e0001fd8d5b/WMS3RD/FE/Tolstoy.git
+ * @Github: binks
  * @Date: 2021-03-30 09:54:08
- * @LastEditTime: 2021-03-30 09:55:41
+ * @LastEditTime: 2021-03-30 10:14:18
 -->
 ### 打包发布
 
