@@ -1,3 +1,9 @@
+/*
+ * @Description: webpack生产环境
+ * @Github: git@codeup.aliyun.com:5e9ad1c5e17c0e0001fd8d5b/WMS3RD/FE/Tolstoy.git
+ * @Date: 2021-03-29 22:26:13
+ * @LastEditTime: 2021-03-30 10:52:39
+ */
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
@@ -59,8 +65,6 @@ module.exports = {
     ],
   },
   plugins: [
-    new webpack.NamedModulesPlugin(),
-    new webpack.HotModuleReplacementPlugin(),
     new ExtractTextPlugin("binks.css"),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
